@@ -1,0 +1,115 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color:white;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.App {
+  background: skyblue;
+  color: black;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: center;
+}
+h1 {
+  margin-bottom: 20px;
+}
+
+.product-info {
+  margin-bottom: 20px;
+}
+
+.barcode-input {
+  margin-bottom: 20px;
+}
+
+.barcode-input input {
+  padding: 10px;
+  width: 70%;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.barcode-input button {
+  padding: 10px 15px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.barcode-input button:hover {
+  background-color: #218838;
+}
+.bill-section {
+  margin-bottom: 20px;
+}
+
+.bill-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.bill-section li {
+  margin: 5px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.bill-section button {
+  margin: 5px;
+  padding: 10px 15px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.bill-section button:hover {
+  background-color: #c82333;
+}
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  color: black;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.modal-content img {
+  margin-top: 20px;
+}
+
+.modal-content button {
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal-content button:hover {
+  background-color: #0056b3;
+}
